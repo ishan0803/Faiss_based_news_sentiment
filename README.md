@@ -29,7 +29,7 @@ This project implements a sophisticated stock price prediction system that combi
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/ishan0803/Faiss_based_news_sentiment.git
 cd Faiss_based_news_sentiment
 ```
 
