@@ -2,7 +2,7 @@
 
 This project implements a sophisticated stock price prediction system that combines news sentiment analysis with historical price data to provide more accurate stock price forecasts. The system uses FAISS (Facebook AI Similarity Search) for efficient similarity search of news headlines, FinBERT for financial sentiment analysis, and LSTM (Long Short-Term Memory) networks for time series prediction.
 
-## 🚀 Features
+## Features
 
 - Real-time stock price prediction using LSTM models
 - News sentiment analysis using FinBERT
@@ -12,7 +12,7 @@ This project implements a sophisticated stock price prediction system that combi
 - Historical price data analysis
 - Visualization of predicted vs actual prices
 
-## 📦 Tech Stack
+## Tech Stack
 
 - **Backend**: Flask, Python
 - **Machine Learning**: 
@@ -25,7 +25,7 @@ This project implements a sophisticated stock price prediction system that combi
 - **News Data**: Google News RSS feeds
 - **Frontend**: HTML/JavaScript with CORS support
 
-## 🛠️ Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -38,7 +38,7 @@ cd Faiss_based_news_sentiment
 pip install torch transformers faiss-cpu xgboost tensorflow flask-cors yfinance feedparser pandas numpy matplotlib scikit-learn
 ```
 
-## 📊 Usage
+## Usage
 
 1. Start the Flask server:
 ```bash
@@ -52,7 +52,7 @@ http://localhost:5000
 
 3. Enter a stock symbol and view predictions based on both technical analysis and news sentiment.
 
-## 🔄 System Components
+## System Components
 
 ### 1. News Sentiment Analysis (`headline_analyzer.py`)
 - Uses FinBERT for financial sentiment embedding
@@ -74,7 +74,7 @@ http://localhost:5000
 - Provides prediction endpoints
 - Integrates both sentiment and price prediction systems
 
-## 📈 Model Configuration
+## Model Configuration
 
 The system can be customized with various parameters:
 - Time steps: 100 (default)
@@ -84,7 +84,7 @@ The system can be customized with various parameters:
 
 Model performance visualization is available in `predicted_vs_actual_prices.png`, showing the comparison between predicted and actual stock prices.
 
-## 🔍 How It Works
+## How It Works
 
 1. **News Analysis**:
    - Fetches relevant news articles using Google News RSS
@@ -102,15 +102,6 @@ Model performance visualization is available in `predicted_vs_actual_prices.png`
    - Combines sentiment analysis with price predictions
    - Provides comprehensive stock movement forecasts
    - Updates predictions with new data
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. Areas for improvement include:
-- Additional technical indicators
-- Enhanced sentiment analysis
-- UI/UX improvements
-- Performance optimizations
-- Additional stock markets support
 
 ## 🌟 Acknowledgments
 
